@@ -1,0 +1,63 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-secondary">
+      <!-- Main Wrapper -->
+      <div class="container mt-3" id="wrapper">
+         <!-- start header section -->
+        <div class="header">
+            <div class="row mb-1">
+                <!-- start website logo section -->
+                <div class="col-md-4" id="title-logo">
+                    <h1 class="logo">PUITU</h1>
+                </div> <!-- End website logo section -->
+
+                <!-- Start header ads banner -->
+                <div class="col-md-8 mt-1" id="header-banner">
+                    <img class="img-fluid" src="https://1.bp.blogspot.com/-ItvU3r8vUco/VmO7oem2bTI/AAAAAAAACN0/wXHARZdv3M0/s1600-r/ad728.jpg" alt="site logo">
+                </div>
+            </div>
+
+        </div> <!-- end header section -->
+
+        <!-- Start navigation section -->
+        <nav class="navbar navbar-expand-lg bg-secondary mb-2">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto" id="menu">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="tictac.html">TicTac</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>                 
+                  
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+          </div>
+        </nav> <!-- End Navigation -->
